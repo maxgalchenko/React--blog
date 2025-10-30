@@ -1,16 +1,82 @@
 # React Blog
 
-## Project Overview
+<div align="center">
 
-A simple and modern blog application built with React. It features Home and Post pages, category browsing, and a clean, responsive UI. The project demonstrates the use of React functional components, hooks, and SCSS for styling. It is designed to be easily deployed and extended for personal or portfolio use.
+[![React](https://img.shields.io/badge/React-16.13.1-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![React Router](https://img.shields.io/badge/React%20Router-5.x-CA4245?logo=reactrouter&logoColor=white)](https://reactrouter.com/)
+[![Sass](https://img.shields.io/badge/Sass-SCSS-CC6699?logo=sass&logoColor=white)](https://sass-lang.com/)
+[![Create React App](https://img.shields.io/badge/Create%20React%20App-3.4.1-09D3AC?logo=createreactapp&logoColor=white)](https://create-react-app.dev/)
+[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-181717?logo=github)](https://pages.github.com/)
+
+</div>
+
+## Overview
+
+A simple single‑page blog UI built with React and SCSS. It demonstrates routing, reusable components, and a clean layout suitable for portfolio or learning purposes. Deployed via GitHub Pages.
+
+## Key Features
+
+- Home, Posts, and Post detail navigation (React Router 5)
+- Search and category-driven browsing UI
+- Responsive SCSS styling with reusable cards and post galleries
+
+## Tech Stack
+
+React 16, Create React App, React Router 5, Sass
+
+## Architecture
+
+SPA built with Create React App. Client-side routing via `react-router-dom` v5, styles authored in SCSS, static assets served from `public/` and `src/blogpostImages/`. Componentized layout with header, hero, galleries, and sidebars.
+
+## Performance & Accessibility
+
+Basic CRA code-splitting, static asset delivery, and SCSS organization. Semantic HTML and keyboard-focusable navigation; tune further for contrast and landmarks as needed.
+
+## Quality
+
+- Linting: ESLint (react-app, airbnb) • Formatting: Prettier
+- Type safety: None (JavaScript project)
+- Tests: Testing Library deps present; no test files committed
+- CI: None • Coverage: N/A
 
 ## Prerequisites
 
-Make sure you have the following installed on your system:
+- Node.js: `14.x`
 
-- **Node.js**: 14.x
+## Installation
 
-![Home](public/localhost_3000_React--blog_.png)
+```bash
+git clone https://github.com/maxgalchenko/React--blog.git
+cd React--blog
+npm install
+```
+
+## Quick Start
+
+```bash
+# Development
+npm start
+
+# Production build
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+Open http://localhost:3000
+
+## Available Scripts
+
+- `npm start` – Start the development server (CRA)
+- `npm run build` – Build the app for production to `build/`
+- `npm test` – Run tests in watch mode (no tests committed)
+- `npm run eject` – Eject CRA configuration (one-way)
+- `npm run deploy` – Deploy the built app to GitHub Pages
+
+## Screenshots
+
+![Main](public/localhost_3000_React--blog_.png)
 
 ---
 
